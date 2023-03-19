@@ -16,7 +16,14 @@ public class Yacht {
         return result;
     }
 
-    public int scoreAsOnes(String result) {
-        return 0;
+    public int scoreAsOnes(String roll) {
+        int score = 0;
+        for (int i = 0; i < roll.length(); i++) {
+            if (roll.substring(i, i+1).equals("1")) {
+                score++;
+            }
+        }
+
+        return score;
     }
 }

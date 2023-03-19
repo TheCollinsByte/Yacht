@@ -18,4 +18,24 @@ public class YachtScoringTest {
         assertThat(score)
                 .isZero();
     }
+
+    @Test
+    public void rollOf12345ResultsInScoredOfOneForOnesCategory() throws Exception{
+        Yacht yacht = new Yacht(new RandomDieRoller());
+
+        int score = yacht.scoreAsOnes("12345");
+
+        assertThat(score)
+                .isEqualTo(1);
+    }
+
+    @Test
+    public void rollOf11111ResultsInScoreOf5ForOnesCategory() throws Exception {
+        Yacht yacht = new Yacht(new RandomDieRoller());
+
+        int score = yacht.scoreAsOnes("11111");
+
+        assertThat(score)
+                .isEqualTo(5);
+    }
 }
