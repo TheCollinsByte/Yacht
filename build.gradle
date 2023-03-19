@@ -19,7 +19,7 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    jvmArgs "-XX:+PreserveFramePointer";
+    jvmArgs "-XX:+PreserveFramePointer"
     testLogging {
         events "started", "passed", "skipped", "failed"
         if (Boolean.getBoolean("test.verbose")) {
