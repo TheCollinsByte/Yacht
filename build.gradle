@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'application'
+}
+
+application {
+    mainClass = 'com.colspan.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testImplementation 'org.assertj:assertj-core:3.24.2'            // Assertion Mechanisms
+}
+
+test {
+    useJUnitPlatform()
+}
