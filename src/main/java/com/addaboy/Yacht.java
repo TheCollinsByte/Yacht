@@ -15,4 +15,8 @@ public class Yacht {
 
         return result;
     }
+
+    public int scoreAsOnes(String result) {
+        return 0;
+    }
 }
