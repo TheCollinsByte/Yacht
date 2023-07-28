@@ -1,4 +1,25 @@
-# Yacht
+<div align="center">
+
+<h1><a href="https://github.com/paradigm-lab">Yacht</a></h1>
+
+<a href="https://github.com/paradigm-lab/Yatch/graphs/contributors">
+<img alt="People" src="https://img.shields.io/github/contributors/paradigm-lab/Yatch?style=flat&color=ffaaf2&label=People"> </a>
+
+<a href="https://github.com/paradigm-lab/Yatch/stargazers">
+<img alt="Stars" src="https://img.shields.io/github/stars/paradigm-lab/Yatch?style=flat&color=98c379&label=Stars"> </a>
+
+<a href="https://github.com/paradigm-lab/Yatch/network/members">
+<img alt="Forks" src="https://img.shields.io/github/forks/paradigm-lab/Yatch?style=flat&color=66a8e0&label=Forks"> </a>
+
+<a href="https://github.com/paradigm-lab/Yatch/watchers">
+<img alt="Watches" src="https://img.shields.io/github/watchers/paradigm-lab/Yatch?style=flat&color=f5d08b&label=Watches"> </a>
+
+<a href="https://github.com/paradigm-lab/Yatch/pulse">
+<img alt="Last Updated" src="https://img.shields.io/github/last-commit/paradigm-lab/Yatch?style=flat&color=e06c75&label="> </a>
+
+<h3>Yacht is played with five six-sided dice</h3>
+
+</div>
 
 ## Score a single throw of dice in Yacht
 
